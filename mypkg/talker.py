@@ -1,15 +1,19 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023  Shuto Numata
+# SPDX-License-Identifier: BSD-3-Clause
+
 import rclpy
 from rclpy.node import Node
-from person_msgs.msg import Person
+from std_msgs.msg import Int16
 
 rclpy.init()
 node = Node("talker")
-pub = node.create_publisher(Person, "person", 10)
+pub = node.create_publisher(Int16, "countup", 10)
 n = 0
 
 def cb():          
     global n 
-    msg = Person()
+    msg = Int16()
     msg.name = "沼田柊斗"
     msg.age = n
     pub.publish(msg)
