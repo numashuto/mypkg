@@ -1,0 +1,42 @@
+[0.993s] Invoking command in '/home/numashuto/ros2_ws/src/mypkg': PYTHONPATH=/home/numashuto/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/numashuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/numashuto/ros2_ws/src/mypkg/build/mypkg/build install --record /home/numashuto/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[1.213s] running egg_info
+[1.213s] creating build/mypkg/mypkg.egg-info
+[1.214s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[1.215s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.215s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[1.216s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[1.216s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[1.218s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.273s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.274s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.274s] running build
+[1.275s] running build_py
+[1.278s] creating /home/numashuto/ros2_ws/src/mypkg/build/mypkg/build
+[1.279s] creating /home/numashuto/ros2_ws/src/mypkg/build/mypkg/build/lib
+[1.279s] creating /home/numashuto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.279s] copying mypkg/talker.py -> /home/numashuto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.280s] copying mypkg/listener.py -> /home/numashuto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.280s] copying mypkg/__init__.py -> /home/numashuto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.280s] running install
+[1.281s] running install_lib
+[1.282s] creating /home/numashuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.283s] copying /home/numashuto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/numashuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.297s] copying /home/numashuto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/numashuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.298s] copying /home/numashuto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/numashuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.298s] byte-compiling /home/numashuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc
+[1.304s] byte-compiling /home/numashuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+[1.305s] byte-compiling /home/numashuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc
+[1.307s] running install_data
+[1.309s] creating /home/numashuto/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[1.310s] creating /home/numashuto/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[1.310s] creating /home/numashuto/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[1.311s] copying resource/mypkg -> /home/numashuto/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[1.312s] copying package.xml -> /home/numashuto/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[1.312s] copying launch/talk_listen.launch.py -> /home/numashuto/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[1.313s] running install_egg_info
+[1.316s] Copying build/mypkg/mypkg.egg-info to /home/numashuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[1.319s] running install_scripts
+[1.337s] Installing listener script to /home/numashuto/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[1.338s] Installing talker script to /home/numashuto/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[1.339s] writing list of installed files to '/home/numashuto/ros2_ws/src/mypkg/build/mypkg/install.log'
+[1.366s] Invoked command in '/home/numashuto/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/numashuto/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/numashuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/numashuto/ros2_ws/src/mypkg/build/mypkg/build install --record /home/numashuto/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed

@@ -14,7 +14,7 @@ n = 0
 def cb():          
     global n 
     msg = Int16()
-    msg.date = n
+    msg.age = n
     pub.publish(msg)
     n += 1
 
