@@ -14,7 +14,6 @@ n = 0
 def cb():          
     global n 
     msg = Int16()
-    msg.name = "沼田柊斗"
     msg.age = n
     pub.publish(msg)
     n += 1
