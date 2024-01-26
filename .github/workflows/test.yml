@@ -2,7 +2,7 @@ name: test
 on: push
 jobs:
   test:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-20.04
     container: ryuichiueda/ubuntu22.04-ros2:latest
     steps:
       - uses: actions/checkout@v2
@@ -10,6 +10,4 @@ jobs:
         run: |
           rsync -av ./ /root/ros2_ws/src/mypkg/
           cd /root/ros2_ws
-          rosdep update
-          rosdep install -i --from-path src --rosdistro humble -y
-          bash -vx ./src/mypkg/test/test.bash /root
+          bash -xv ./src/mypkg/test/test.bash /root
