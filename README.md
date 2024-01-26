@@ -1,6 +1,6 @@
-# robosys2023_2
+# robosys2023
 ロボットシステム学の課題2
-* ![test](https://github.com/numashuto/robosys2023/actions/workflows/test.yml/badge.svg)
+* ![test](https://github.com/numashuto/mypkg/actions/workflows/test.yml/badge.svg)
 
 # Usage
 
